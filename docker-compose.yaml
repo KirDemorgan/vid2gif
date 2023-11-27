@@ -1,0 +1,7 @@
+version: '3'
+services:
+    vid2gif:
+      image: vid2gif
+      restart: always
+      volumes:
+         - /home/alex/vid2gif:/app
